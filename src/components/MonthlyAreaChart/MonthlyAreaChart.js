@@ -12,20 +12,17 @@ import useCharts from "../../hooks/useCharts";
 const MonthlyAreaChart = () => {
   const [charts, setcharts] = useCharts();
   return (
-    <div style={{ width: "100%" }}>
+    <div style={{ width: "100%" }} className="mt-12">
       <h1 className="text-blue-700 font-bold text-center mb-4">
         Investment VS Revenue
       </h1>
       <ResponsiveContainer width={500} height={300}>
         <AreaChart
-          width={400}
-          height={300}
+          width={300}
+          height={200}
           data={charts}
           margin={{
-            top: 10,
-            right: 30,
-            left: 0,
-            bottom: 0,
+            left: 20,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />

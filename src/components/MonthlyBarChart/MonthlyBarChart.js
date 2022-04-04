@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  Area,
-  AreaChart,
   Bar,
   BarChart,
   CartesianGrid,
@@ -17,20 +15,17 @@ import useCharts from "../../hooks/useCharts";
 const MonthlyBarChart = () => {
   const [charts, setcharts] = useCharts();
   return (
-    <div style={{ width: "100%" }}>
-      <h1 className="text-blue-700 font-bold text-center">
+    <div style={{ width: "100%" }} className="mt-6">
+      <h1 className="text-blue-700 font-bold text-center mb-6">
         Investment VS Revenue
       </h1>
       <ResponsiveContainer width={500} height={300}>
         <BarChart
           width={300}
-          height={300}
+          height={200}
           data={charts}
           margin={{
-            top: 20,
-            right: 30,
-            left: 20,
-            bottom: 5,
+            left: 30,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
