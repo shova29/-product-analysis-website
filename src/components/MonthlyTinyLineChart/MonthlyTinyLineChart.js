@@ -15,10 +15,10 @@ const MonthlyTinyLineChart = () => {
   return (
     <div style={{ width: "100%" }}>
       <h1 className="text-blue-700 font-bold text-center">MONTH WISE SELL</h1>
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width={500} height={300}>
         <LineChart
-          width={600}
-          height={400}
+          width={300}
+          height={200}
           data={charts}
           margin={{
             top: 5,

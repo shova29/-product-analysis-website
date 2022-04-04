@@ -13,13 +13,13 @@ const MonthlyAreaChart = () => {
   const [charts, setcharts] = useCharts();
   return (
     <div style={{ width: "100%" }}>
-      <h1 className="text-blue-700 font-bold text-center">
+      <h1 className="text-blue-700 font-bold text-center mb-4">
         Investment VS Revenue
       </h1>
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width={500} height={300}>
         <AreaChart
-          width={500}
-          height={400}
+          width={400}
+          height={300}
           data={charts}
           margin={{
             top: 10,

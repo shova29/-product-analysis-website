@@ -1,5 +1,6 @@
 import React from "react";
 import MonthlyAreaChart from "../MonthlyAreaChart/MonthlyAreaChart";
+import MonthlyBarChart from "../MonthlyBarChart/MonthlyBarChart";
 import MonthlyTinyLineChart from "../MonthlyTinyLineChart/MonthlyTinyLineChart";
 
 const DashBoard = () => {
@@ -7,6 +8,7 @@ const DashBoard = () => {
     <div className="columns-2">
       <MonthlyTinyLineChart></MonthlyTinyLineChart>
       <MonthlyAreaChart></MonthlyAreaChart>
+      <MonthlyBarChart></MonthlyBarChart>
     </div>
   );
 };

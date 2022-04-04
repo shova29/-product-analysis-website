@@ -16,21 +16,21 @@
   {
     "id": 3,
     "month": "May",
-    "investment": 500000,
+    "investment": 590000,
     "sell": 726,
     "revenue": 670100
   },
   {
     "id": 4,
     "month": "Jun",
-    "investment": 500000,
+    "investment": 520000,
     "sell": 529,
     "revenue": 544050
   },
   {
     "id": 5,
     "month": "Jul",
-    "investment": 600000,
+    "investment": 620000,
     "sell": 601,
     "revenue": 659000
   },
