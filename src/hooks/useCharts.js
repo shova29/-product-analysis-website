@@ -1,7 +1,13 @@
-import React from "react";
+import { useEffect, useState } from "react";
 
 const useCharts = () => {
-  return <div></div>;
+  const [charts, setCharts] = useState([]);
+  useEffect(() => {
+    fetch("data.json")
+      .then((response) => response.json())
+      .then((data) => setCharts(data));
+  });
+  return [charts, setCharts];
 };
 
 export default useCharts;
