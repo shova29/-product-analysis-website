@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImage from "../../Assets/Images/header-image.png";
+import HeaderImage from "../../Assets/Images/header-img.png";
 import useReviews from "../../hooks/useReviews";
 import CustomerReviews from "../CustomerReviews/CustomerReviews";
 import ReviewCard from "../ReviewCard/ReviewCard";
