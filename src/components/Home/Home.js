@@ -1,14 +1,18 @@
 import React from "react";
 import HeaderImage from "../../Assets/Images/header-image.png";
+import useReviews from "../../hooks/useReviews";
+import CustomerReviews from "../CustomerReviews/CustomerReviews";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
 const Home = () => {
+  const [reviews, setReviews] = useReviews();
   return (
     <div className="bg-white md:container md:mx-auto lg:container">
       <section className="mt-16 flex bg-white">
         <div className="mr-64">
-          <h1 className="text-5xl">
-            Your next Sun-Glass <br></br>
-            <span className="text-teal-500 font-bold">Your best SunGlass</span>
+          <h1 className="text-5xl font-bold">
+            Your next SunGlass <br></br>
+            <span className="text-teal-500">Your best SunGlass</span>
           </h1>
           <p className="mt-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vero
@@ -24,6 +28,9 @@ const Home = () => {
         <div className="ml-12">
           <img className="w-full h-full" src={HeaderImage} alt="" />
         </div>
+      </section>
+      <section className="mt-20">
+        <CustomerReviews></CustomerReviews>
       </section>
     </div>
   );
