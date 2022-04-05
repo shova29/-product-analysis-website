@@ -2,15 +2,11 @@
 
 Project Live Link: [Sunglass Sanctuary](https://product-analysis-shova29.netlify.app/)
 
-This project was Tailwind with Create React App [https://product-analysis-shova29.netlify.app/](https://product-analysis-shova29.netlify.app/)
-
 ## Technology Used
 
 1. React
 2. Tailwind
 3. Recharts
-
-In the project directory, you can run:[https://product-analysis-shova29.netlify.app/](https://product-analysis-shova29.netlify.app/)
 
 ## Project Description:
 
