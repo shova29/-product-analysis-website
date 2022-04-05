@@ -9,8 +9,9 @@ const Reviews = () => {
       <h2 className="text-center text-4xl mt-6 mb-16 ">
         What our customers say!
       </h2>
+      {/* //lg:columns-3 sm:columns-1 */}
       <section className="mb-32">
-        <div className="review-container container mx-auto lg:columns-3 sm:columns-1">
+        <div className="review-container container mx-auto grid  lg:grid-cols-3 sm:grid-cols-1">
           {reviews.map((reviewCard) => (
             <ReviewCard
               key={reviewCard.id}

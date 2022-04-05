@@ -1,12 +1,17 @@
-# Getting Started with Create React App
+# Sunglass Sanctuary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Tailwind with Create React App [https://product-analysis-shova29.netlify.app/](https://product-analysis-shova29.netlify.app/)
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run:[https://product-analysis-shova29.netlify.app/](https://product-analysis-shova29.netlify.app/)
 
-### `npm start`
+### `npm start` Project Description:
+
+-
+-
+-
+-
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

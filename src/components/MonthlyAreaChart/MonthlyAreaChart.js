@@ -28,7 +28,7 @@ const MonthlyAreaChart = () => {
           <CartesianGrid strokeDasharray="3 3" />
           <Area
             type="monotone"
-            dataKey="revenue"
+            dataKey="revenue2"
             stroke="#82ca9d"
             fill="#82ca9d"
           />

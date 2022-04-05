@@ -7,11 +7,10 @@ import ReviewCard from "../ReviewCard/ReviewCard";
 const Home = () => {
   const [reviews, setReviews] = useReviews();
   const navigate = useNavigate();
-  // const x = reviews.slice(0, 3);
   return (
-    <div className="bg-white md:container md:mx-auto lg:container">
-      <section className="mt-16 flex bg-white">
-        <div className="mr-64">
+    <div className="lg:container lg:mx-auto md:container md:mx-auto sm:container sm:mx-auto bg-white">
+      <section className="mt-16 flex bg-white grid lg:grid-cols-2 sm:grid-cols-1">
+        <div className="sm:ml-12 lg:ml-0">
           <h1 className="text-5xl font-bold">
             Your next SunGlass <br></br>
             <span className="text-teal-500">Your best SunGlass</span>
@@ -27,15 +26,19 @@ const Home = () => {
             Live Demo
           </button>
         </div>
-        <div className="ml-12">
-          <img className="w-full h-full" src={HeaderImage} alt="" />
+        <div className="">
+          <img
+            className="lg:w-full sm:w-full lg:h-full sm:h-full"
+            src={HeaderImage}
+            alt=""
+          />
         </div>
       </section>
       <section className="mt-20">
-        <h2 className="mt-8 font-bold text-4xl text-center">
+        <h2 className="mt-8 font-bold text-4xl text-center mb-6">
           Customer Reviews(3)
         </h2>
-        <div className="mt-8 review-container container mx-auto lg:columns-3 sm:columns-1">
+        <div className="mt-8 review-container container mx-auto lg:columns-3  sm:columns-1">
           {reviews.slice(0, 3).map((reviewCard) => (
             <ReviewCard
               key={reviewCard.id}
@@ -43,7 +46,7 @@ const Home = () => {
             ></ReviewCard>
           ))}
         </div>
-        <div className="text-center">
+        <div className="text-center mt-8">
           {" "}
           <button
             onClick={() => navigate("/reviews")}
