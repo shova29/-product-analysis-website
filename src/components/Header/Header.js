@@ -6,8 +6,11 @@ import logo from "../../Assets/Images/logo.png";
 
 const Header = () => {
   return (
-    <div className="container mt-4 flex sm:flex mx-20 justify-between mr-4 justify-between items-center">
-      <img className="w-24 rounded-circle" src={logo} alt="" srcset="" />
+    <div className="mt-2 grid sm:flex justify-between items-center mx-24">
+      <div>
+        <img className="w-28 h-28 rounded-full" src={logo} alt="" srcset="" />
+      </div>
+
       <nav className="flex sm:flex ">
         <CustomLink to="/home">HOME</CustomLink>
         <CustomLink to="/reviews">REVIEWS</CustomLink>

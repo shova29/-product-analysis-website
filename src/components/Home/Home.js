@@ -8,22 +8,23 @@ const Home = () => {
   const [reviews, setReviews] = useReviews();
   const navigate = useNavigate();
   return (
-    <div className="lg:container lg:mx-auto md:container md:mx-auto sm:container sm:mx-auto bg-white">
+    <section className="lg:container lg:mx-auto md:container md:mx-auto sm:container sm:mx-auto bg-white">
       <section className="mt-16 flex bg-white grid lg:grid-cols-2 sm:grid-cols-1">
         <div className="sm:ml-12 lg:ml-0">
           <h1 className="text-5xl font-bold">
-            Your next SunGlass <br></br>
-            <span className="text-teal-500">Your best SunGlass</span>
+            A BROAD RANGE OF <br></br>
+            <span className="text-teal-500">TRENDY SunGlass</span>
           </h1>
-          <p className="mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vero
-            earum eos cupiditate recusandae quo quod atque vitae! Enim, tempore!
+          <p className="lg:max-w-auto sm:max-w-auto  mt-6 sm:text-sm lg:text-lg">
+            Perfect look with a suitable pair of glasses. Put on eyewear & put
+            on positive view mode. Our sunglasses are designed to protect the
+            eyes both from excessive light and from damaging UV light rays.
           </p>
           <button
             type="button"
             class="mt-8 text-teal-700 hover:text-white border border-teal-500 hover:bg-teal-500 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-teal-400 dark:text-teal-400 dark:hover:text-white dark:hover:bg-teal-500 dark:focus:ring-teal-900"
           >
-            Live Demo
+            Shop Now
           </button>
         </div>
         <div className="">
@@ -57,7 +58,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 
